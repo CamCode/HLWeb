@@ -120,6 +120,23 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: #000;
 }
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid #00d0b0;
+  width: 60%;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
 
 @media (min-width: 768px) {
   .navbar-custom .navbar-brand {
