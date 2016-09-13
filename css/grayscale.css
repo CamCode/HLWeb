@@ -205,6 +205,16 @@ a:focus {
 #portafolio * {
   z-index: 2;
 }
+
+.btn-xl {
+    color: #fff;
+    background-color: #00D0B0;
+    border-color: #00D0B0;
+    border-radius: 3px!important;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
 @media (min-width: 1200px) {
  .portafolio-modal .modal-dialog {
   margin: 0;
@@ -279,6 +289,61 @@ a:focus {
 .portafolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+section#contact {
+  background-color: #222222;
+  background-image: url('../img/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #eeeeee;
+}
+section#contact .text-danger {
+  color: #e74c3c;
 }
 }
 @media (min-width: 768px) {
@@ -468,7 +533,7 @@ a:focus {
   background-color: #42DCA3;
 }
 ul.banner-social-buttons {
-  margin-top: 0;
+  margin-top:10px;
 }
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
